@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- form section -->
+    <section class="form-section">
+        <h1>College Review</h1>
+        <p>The Purpose of this survey is to let us know about your college according to you and what have you learned in your 4 year journey.</p>
+        <!-- form -->
+        <form  action="##" class="from1">
+            <!-- content -->
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"/>
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"/>
+            <br>
+            <label for="dob">DOB: </label>
+            <input type="date" name="dob" id="dob" />
+            <br>
+            <label for="male">Gender: </label>
+              <input type="radio" id="male" name="fav_language" value="Male">Male</input>
+              <input type="radio" id="female" name="fav_language" value="Female">Female</input> <!-- name must be same to comparating radio-->
+            <br>
+            <label for="college">College: </label>
+            <input type="text" name="college" id="college" />
+            <br>
+            <label for="branch">Branch: </label>
+            <input type="text" name="branch" id="branch"/>
+            <br>
+            <label for="activities">What activities have you done in college? </label>
+            <input type="checkbox" name="activities" id="academics">Academics</input>
+            <input type="checkbox" name="activities" id="Sports">Sports</input>
+            <input type="checkbox" name="activities" id="clubs">Clubs</input>
+            <input type="checkbox" name="activities" id="Hackathon">Hackathons</input>
+            <br>
+            <label for="review">Your Review: </label>
+            <input type="text" name="review" id="review">
+            <br>
+             <label for="memories">Memories: </label>
+             <input type="file" name="memories" id="memories">
+             <br>
+             <label for="recommend">Would you recommend it to a friend?</label>
+             <input type="radio" name="recommend" id="recommend">Yes</input>
+             <input type="radio" name="recommend" id="no">No</input>
+             <input type="radio" name="recommend" id="maybe">Maybe</input>
+             <br>
+            <button class="btn">Submit</button> 
+        </form>
+    </section>
+</body>
+</html>
